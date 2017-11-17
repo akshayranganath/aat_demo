@@ -146,8 +146,8 @@ def setup_logger(context):
 
 
 def setup_config(context):
-    config = ConfigParser.ConfigParser()
-    config.readfp(open('features/environment.cfg'))
+    config = configparser.ConfigParser()
+    config.read_file(open('features/environment.cfg'))
 
     if config.has_option('logging', 'log_level'):
         context.log_level = int(config.get('logging', 'log_level'))
