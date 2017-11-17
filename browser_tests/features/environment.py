@@ -1,7 +1,7 @@
 import os
-import ConfigParser
+import configparser
 import logging
-import httplib
+#import httplib
 import base64
 
 from datetime import datetime
