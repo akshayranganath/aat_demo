@@ -52,3 +52,10 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# PyCharm files
+.idea/*
+bin/*
+pip-selfcheck.json
+pyvenv.cfg
+selenium/*
